@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="#c2c2c2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/name"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="REG NO"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/regno"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PROGRAM"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/prog"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DEPT"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dept"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SEM"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sem"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="@drawable/green">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BATCH"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/batch"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</LinearLayout>
